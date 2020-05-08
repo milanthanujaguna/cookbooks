@@ -10,6 +10,8 @@ describe_instances_result.reservations.each do |reservation|
       puts "Instance ID: #{instance.instance_id}"
   end
 end
+end
+
 
 #bash 'dummyfile' do
 #    code <<-EOH
