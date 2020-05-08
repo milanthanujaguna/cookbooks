@@ -5,6 +5,6 @@ dep_gems.each do |gem|
     #compile_time true if Chef::Resource::ChefGem.instance_methods(false).include?(:compile_time)
     action :remove
     #options("--no-ri --no-rdoc")
-    version gem["version"]
+    #version gem["version"]
   end
 end
