@@ -1,4 +1,4 @@
-dep_gems = [ { "gem" => "aws-sdk-ec2", "version" => "1" }]
+dep_gems = [ { "gem" => "aws-sdk-ec2", "version" => "~> 1" }]
 
 dep_gems.each do |gem|
   chef_gem gem["gem"] do

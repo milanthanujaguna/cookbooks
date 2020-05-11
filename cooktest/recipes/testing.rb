@@ -1,5 +1,5 @@
 #update system
-execute "upddate" do
+execute "update" do
   command "yum update -y"
   action :run
 end
